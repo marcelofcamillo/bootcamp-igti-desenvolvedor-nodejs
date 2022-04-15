@@ -1,0 +1,21 @@
+2022-04-15T14:57:08.636Z [my-app] error: Error log
+2022-04-15T14:57:08.638Z [my-app] warn: Warn log
+2022-04-15T14:57:08.638Z [my-app] info: Info log
+2022-04-15T14:57:08.639Z [my-app] verbose: Verbose log
+2022-04-15T14:57:08.639Z [my-app] debug: Debug log
+2022-04-15T14:57:08.640Z [my-app] silly: Silly log
+2022-04-15T14:57:08.640Z [my-app] info: Hello with parameter!
+2022-04-15T14:57:35.937Z [my-app] error: Error log
+2022-04-15T14:57:35.939Z [my-app] warn: Warn log
+2022-04-15T14:57:35.939Z [my-app] info: Info log
+2022-04-15T14:57:35.940Z [my-app] verbose: Verbose log
+2022-04-15T14:57:35.941Z [my-app] debug: Debug log
+2022-04-15T14:57:35.941Z [my-app] silly: Silly log
+2022-04-15T14:57:35.942Z [my-app] info: Hello with parameter!
+2022-04-15T14:57:46.978Z [my-app] error: Error log
+2022-04-15T14:57:46.981Z [my-app] warn: Warn log
+2022-04-15T14:57:46.981Z [my-app] info: Info log
+2022-04-15T14:57:46.982Z [my-app] verbose: Verbose log
+2022-04-15T14:57:46.982Z [my-app] debug: Debug log
+2022-04-15T14:57:46.983Z [my-app] silly: Silly log
+2022-04-15T14:57:46.984Z [my-app] info: Hello with parameter!
