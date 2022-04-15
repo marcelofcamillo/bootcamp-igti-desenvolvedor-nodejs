@@ -20,7 +20,18 @@ router.post('/', async (req, res) => {
 
     await writeFile(global.fileName, JSON.stringify(data, null, 2));
 
-    res.send(account);
+    res.status(200).send(account);
+  } catch (error) {
+    res.status(400).send({ error: error.message });
+  }
+});
+
+router.get('/', async (req, res) => {
+  try {
+    const data = JSON.parse(await readFile(global.fileName));
+    delete data.nextId;
+
+    res.status(200).send(data);
   } catch (error) {
     res.status(400).send({ error: error.message });
   }
