@@ -65,4 +65,20 @@ router.delete('/:id', async (req, res) => {
   }
 });
 
+router.put('/', async (req, res) => {
+  try {
+    let account = req.body;
+    const data = JSON.parse(await readFile(global.fileName));
+    const index = data.accounts.findIndex((a) => a.id === account.id);
+
+    data.accounts[index] = account;
+
+    await writeFile(global.fileName, JSON.stringify(data, null, 2));
+
+    res.status(200).send(account);
+  } catch (error) {
+    res.status(400).send({ error: error.message });
+  }
+});
+
 export default router;

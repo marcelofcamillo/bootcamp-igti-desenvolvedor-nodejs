@@ -4,12 +4,12 @@
     {
       "id": 1,
       "name": "Marcelo Camillo",
-      "balance": 100
+      "balance": 875.23
     },
     {
       "id": 4,
-      "name": "Teste 4",
-      "balance": 81044
+      "name": "Teste Novo",
+      "balance": 2500.5
     }
   ]
 }
