@@ -43,3 +43,25 @@
 2022-04-16T23:13:48.339Z [my-bank-api] error: PUT /account - ID, name e balance são obrigatórios.
 2022-04-16T23:13:53.433Z [my-bank-api] error: PUT /account - ID, name e balance são obrigatórios.
 2022-04-16T23:13:55.156Z [my-bank-api] info: PUT /account - {"id":1,"name":"Teste Novo","balance":25000.5}
+2022-04-16T23:13:58.623Z [my-bank-api] info: GET /account
+2022-04-16T23:21:21.131Z [my-bank-api] info: API started!
+2022-04-16T23:21:28.107Z [my-bank-api] info: API started!
+2022-04-16T23:21:55.229Z [my-bank-api] info: GET /account
+2022-04-16T23:21:59.840Z [my-bank-api] info: GET /account
+2022-04-16T23:22:15.072Z [my-bank-api] info: GET /account
+2022-04-16T23:22:36.688Z [my-bank-api] info: GET /account
+2022-04-16T23:22:50.485Z [my-bank-api] info: GET /account
+2022-04-16T23:23:05.189Z [my-bank-api] info: GET /account
+2022-04-16T23:23:11.752Z [my-bank-api] info: GET /account
+2022-04-16T23:25:28.653Z [my-bank-api] info: GET /account
+2022-04-16T23:25:39.420Z [my-bank-api] info: GET /account
+2022-04-16T23:26:13.051Z [my-bank-api] info: GET /account
+2022-04-16T23:30:20.782Z [my-bank-api] info: GET /account/:id - {"id":1,"name":"Teste Novo","balance":25000.5}
+2022-04-16T23:32:04.258Z [my-bank-api] info: GET /account/:id - {"id":1,"name":"Teste Novo","balance":25000.5}
+2022-04-16T23:32:06.787Z [my-bank-api] info: GET /account/:id - {"id":1,"name":"Teste Novo","balance":25000.5}
+2022-04-16T23:32:10.243Z [my-bank-api] info: GET /account/:id - {"id":1,"name":"Teste Novo","balance":25000.5}
+2022-04-16T23:36:24.446Z [my-bank-api] info: API started!
+2022-04-16T23:36:31.472Z [my-bank-api] info: GET /account/:id - {"id":1,"name":"Teste Novo","balance":25000.5}
+2022-04-16T23:36:37.433Z [my-bank-api] info: GET /account
+2022-04-16T23:37:33.795Z [my-bank-api] info: API started!
+2022-04-16T23:37:42.155Z [my-bank-api] info: API started!
