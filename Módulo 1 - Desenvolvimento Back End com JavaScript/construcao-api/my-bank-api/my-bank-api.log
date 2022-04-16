@@ -1,0 +1,11 @@
+2022-04-16T16:14:30.764Z [my-bank-api] info: API started and file created!
+2022-04-16T16:14:45.795Z [my-bank-api] info: POST /account - {"id":1,"name":"Teste 1","balance":100}
+2022-04-16T16:14:47.873Z [my-bank-api] info: GET /account
+2022-04-16T16:14:50.088Z [my-bank-api] info: GET /account/:id - {"id":1,"name":"Teste 1","balance":100}
+2022-04-16T16:14:56.536Z [my-bank-api] info: POST /account - {"id":2,"name":"Teste 2","balance":200}
+2022-04-16T16:14:56.698Z [my-bank-api] info: POST /account - {"id":3,"name":"Teste 2","balance":200}
+2022-04-16T16:15:01.230Z [my-bank-api] info: GET /account
+2022-04-16T16:15:05.563Z [my-bank-api] info: DELETE /account/:id - 2
+2022-04-16T16:15:07.865Z [my-bank-api] info: GET /account
+2022-04-16T16:15:12.491Z [my-bank-api] info: PUT /account - {"id":1,"name":"Teste Novo","balance":2500.5}
+2022-04-16T16:15:15.735Z [my-bank-api] info: PATCH /account/updateBalance - {"id":1,"balance":875.23}
