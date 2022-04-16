@@ -9,3 +9,37 @@
 2022-04-16T16:15:07.865Z [my-bank-api] info: GET /account
 2022-04-16T16:15:12.491Z [my-bank-api] info: PUT /account - {"id":1,"name":"Teste Novo","balance":2500.5}
 2022-04-16T16:15:15.735Z [my-bank-api] info: PATCH /account/updateBalance - {"id":1,"balance":875.23}
+2022-04-16T22:55:44.022Z [my-bank-api] info: API started!
+2022-04-16T23:01:32.721Z [my-bank-api] info: API started!
+2022-04-16T23:01:44.454Z [my-bank-api] error: POST /account - Name e balance são obrigatórios.
+2022-04-16T23:01:55.506Z [my-bank-api] info: POST /account - {"id":4,"name":"Teste 2","balance":200}
+2022-04-16T23:02:35.133Z [my-bank-api] info: API started!
+2022-04-16T23:02:41.997Z [my-bank-api] info: POST /account - {"id":5,"name":"Teste 2","balance":0}
+2022-04-16T23:03:01.152Z [my-bank-api] error: POST /account - Name e balance são obrigatórios.
+2022-04-16T23:03:07.676Z [my-bank-api] info: POST /account - {"id":6,"name":"Teste","balance":200}
+2022-04-16T23:04:09.110Z [my-bank-api] info: API started!
+2022-04-16T23:06:24.115Z [my-bank-api] info: API started!
+2022-04-16T23:06:30.201Z [my-bank-api] error: PATCH /account - Cannot set properties of undefined (setting 'balance')
+2022-04-16T23:06:34.955Z [my-bank-api] error: PATCH /account - Cannot set properties of undefined (setting 'balance')
+2022-04-16T23:06:49.714Z [my-bank-api] error: PUT /account - Registro não encontrado.
+2022-04-16T23:06:59.145Z [my-bank-api] info: PUT /account - {"id":1,"name":"Teste Novo","balance":25000.5}
+2022-04-16T23:07:29.092Z [my-bank-api] info: API started!
+2022-04-16T23:07:47.895Z [my-bank-api] error: PUT /account - Name e balance são obrigatórios.
+2022-04-16T23:07:52.271Z [my-bank-api] error: PUT /account - Name e balance são obrigatórios.
+2022-04-16T23:07:54.315Z [my-bank-api] info: PUT /account - {"id":1,"name":"Teste Novo","balance":25000.5}
+2022-04-16T23:08:26.808Z [my-bank-api] info: API started!
+2022-04-16T23:08:29.102Z [my-bank-api] info: PUT /account - {"id":1,"name":"Teste Novo","balance":25000.5}
+2022-04-16T23:09:16.555Z [my-bank-api] info: API started!
+2022-04-16T23:09:20.841Z [my-bank-api] error: PATCH /account - Registro não encontrado.
+2022-04-16T23:09:38.503Z [my-bank-api] info: PATCH /account/updateBalance - {"id":1,"balance":875.23}
+2022-04-16T23:10:29.391Z [my-bank-api] info: API started!
+2022-04-16T23:10:53.606Z [my-bank-api] info: API started!
+2022-04-16T23:12:13.170Z [my-bank-api] error: PATCH /account - ID e balance são obrigatórios.
+2022-04-16T23:12:17.993Z [my-bank-api] info: PATCH /account/updateBalance - {"id":1,"balance":8750.23}
+2022-04-16T23:12:23.309Z [my-bank-api] info: GET /account/:id - {"id":1,"name":"Teste Novo","balance":8750.23}
+2022-04-16T23:13:15.947Z [my-bank-api] info: API started!
+2022-04-16T23:13:17.784Z [my-bank-api] info: API started!
+2022-04-16T23:13:44.483Z [my-bank-api] error: PUT /account - ID, name e balance são obrigatórios.
+2022-04-16T23:13:48.339Z [my-bank-api] error: PUT /account - ID, name e balance são obrigatórios.
+2022-04-16T23:13:53.433Z [my-bank-api] error: PUT /account - ID, name e balance são obrigatórios.
+2022-04-16T23:13:55.156Z [my-bank-api] info: PUT /account - {"id":1,"name":"Teste Novo","balance":25000.5}
