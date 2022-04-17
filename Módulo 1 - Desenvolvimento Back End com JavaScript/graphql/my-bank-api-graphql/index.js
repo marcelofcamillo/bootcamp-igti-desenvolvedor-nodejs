@@ -6,6 +6,7 @@ import { promises as fs } from 'fs';
 import { buildSchema } from 'graphql';
 import { graphqlHTTP } from 'express-graphql';
 import accountsRouter from './routes/account.routes.js';
+import AccountService from './services/account.service.js';
 import { swaggerDocument } from './doc.js';
 
 const { readFile, writeFile } = fs;
@@ -37,6 +38,13 @@ const schema = buildSchema(`
   }
 `);
 
+const root = {
+  getAccounts: () => AccountService.getAccounts(),
+  getAccount(args) {
+    return AccountService.getAccount(args.id);
+  },
+};
+
 const app = express();
 app.use(express.json());
 app.use(cors());
@@ -47,7 +55,7 @@ app.use(
   '/graphql',
   graphqlHTTP({
     schema: schema,
-    rootValue: null,
+    rootValue: root,
     graphiql: true,
   })
 );
