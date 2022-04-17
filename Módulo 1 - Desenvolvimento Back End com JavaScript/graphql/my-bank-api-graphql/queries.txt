@@ -1,0 +1,56 @@
+{
+  getAccount(id: 1) {
+    id
+    name
+    balance
+  }
+  getAccounts {
+    id
+    name
+    balance
+  }
+}
+
+mutation {
+  createAccount(account: {name: "João", balance: 1000}) {
+    id
+    name
+    balance
+  }
+}
+
+mutation {
+  createAccount(account: {name: "João", balance: 1000}) {
+    id
+    name
+    balance
+  }
+  updateAccount(account: {id: 15, name: "João 2", balance: 0}) {
+    id
+    name
+    balance
+  }
+}
+
+mutation {
+  createAccount(account: {name: "João", balance: 1000}) {
+    id
+    name
+    balance
+  }
+  updateAccount(account: {id: 15, name: "João 2", balance: 0}) {
+    id
+    name
+    balance
+  }
+  deleteAccount(id: 15)
+}
+
+mutation {
+  updateBalance(account: {id: 1, balance: 500.0}) {
+    id
+    name
+    balance
+  }
+}
+
