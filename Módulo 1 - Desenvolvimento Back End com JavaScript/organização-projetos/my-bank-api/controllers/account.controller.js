@@ -1,6 +1,4 @@
-import { promises as fs } from 'fs';
-
-const { readFile, writeFile } = fs;
+import AccountService from '../services/account.service.js';
 
 async function createAccount(req, res, next) {
   try {
@@ -10,19 +8,7 @@ async function createAccount(req, res, next) {
       throw new Error('Name e balance são obrigatórios.');
     }
 
-    const data = await JSON.parse(await readFile(global.fileName));
-
-    account = {
-      id: data.nextId++,
-      name: account.name,
-      balance: account.balance,
-    };
-
-    data.accounts.push(account);
-
-    await writeFile(global.fileName, JSON.stringify(data, null, 2));
-
-    res.status(200).send(account);
+    res.status(200).send(await AccountService.createAccount(account));
     logger.info(`${req.method} ${req.baseUrl} - ${JSON.stringify(account)}`);
   } catch (error) {
     next(error);
@@ -31,10 +17,7 @@ async function createAccount(req, res, next) {
 
 async function getAccounts(req, res, next) {
   try {
-    const data = JSON.parse(await readFile(global.fileName));
-    delete data.nextId;
-
-    res.status(200).send(data);
+    res.status(200).send(await AccountService.getAccounts());
     logger.info(`${req.method} ${req.baseUrl}`);
   } catch (error) {
     next(error);
@@ -43,12 +26,7 @@ async function getAccounts(req, res, next) {
 
 async function getAccount(req, res, next) {
   try {
-    const data = JSON.parse(await readFile(global.fileName));
-    const account = data.accounts.find(
-      (account) => account.id === parseInt(req.params.id)
-    );
-
-    res.status(200).send(account);
+    res.status(200).send(await AccountService.getAccount(req.params.id));
     logger.info(
       `${req.method} ${req.baseUrl}/:id - ${JSON.stringify(account)}`
     );
@@ -59,13 +37,7 @@ async function getAccount(req, res, next) {
 
 async function deleteAccount(req, res, next) {
   try {
-    const data = JSON.parse(await readFile(global.fileName));
-    data.accounts = data.accounts.filter(
-      (account) => account.id !== parseInt(req.params.id)
-    );
-
-    await writeFile(global.fileName, JSON.stringify(data, null, 2));
-
+    await AccountService.deleteAccount(req.params.id);
     res.status(200).end();
     logger.info(`${req.method} ${req.baseUrl}/:id - ${req.params.id}`);
   } catch (error) {
@@ -81,19 +53,7 @@ async function updateAccount(req, res, next) {
       throw new Error('ID, name e balance são obrigatórios.');
     }
 
-    const data = JSON.parse(await readFile(global.fileName));
-    const index = data.accounts.findIndex((a) => a.id === account.id);
-
-    if (index === -1) {
-      throw new Error('Registro não encontrado.');
-    }
-
-    data.accounts[index].name = account.name;
-    data.accounts[index].balance = account.balance;
-
-    await writeFile(global.fileName, JSON.stringify(data, null, 2));
-
-    res.status(200).send(account);
+    res.status(200).send(await AccountService.updateAccount(account));
     logger.info(`${req.method} ${req.baseUrl} - ${JSON.stringify(account)}`);
   } catch (error) {
     next(error);
@@ -108,18 +68,7 @@ async function updateBalance(req, res, next) {
       throw new Error('ID e balance são obrigatórios.');
     }
 
-    const data = JSON.parse(await readFile(global.fileName));
-    const index = data.accounts.findIndex((a) => a.id === account.id);
-
-    if (index === -1) {
-      throw new Error('Registro não encontrado.');
-    }
-
-    data.accounts[index].balance = account.balance;
-
-    await writeFile(global.fileName, JSON.stringify(data, null, 2));
-
-    res.status(200).send(data.accounts[index]);
+    res.status(200).send(await AccountService.updateBalance(account));
     logger.info(
       `${req.method} ${req.baseUrl}/updateBalance - ${JSON.stringify(account)}`
     );
