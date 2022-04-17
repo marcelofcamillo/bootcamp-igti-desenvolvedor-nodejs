@@ -6,8 +6,8 @@ import { promises as fs } from 'fs';
 import { buildSchema } from 'graphql';
 import { graphqlHTTP } from 'express-graphql';
 import accountsRouter from './routes/account.routes.js';
-import AccountService from './services/account.service.js';
 import { swaggerDocument } from './doc.js';
+import Schema from './schema/index.js';
 
 const { readFile, writeFile } = fs;
 
@@ -26,6 +26,7 @@ global.logger = winston.createLogger({
   format: combine(label({ label: 'my-bank-api' }), timestamp(), myFormat),
 });
 
+/*
 const schema = buildSchema(`
   type Account {
     id: Int
@@ -64,6 +65,7 @@ const root = {
     return AccountService.updateBalance(account);
   },
 };
+*/
 
 const app = express();
 app.use(express.json());
@@ -74,8 +76,8 @@ app.use('/account', accountsRouter);
 app.use(
   '/graphql',
   graphqlHTTP({
-    schema: schema,
-    rootValue: root,
+    schema: Schema,
+    //rootValue: root,
     graphiql: true,
   })
 );
