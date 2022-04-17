@@ -65,3 +65,12 @@
 2022-04-16T23:36:37.433Z [my-bank-api] info: GET /account
 2022-04-16T23:37:33.795Z [my-bank-api] info: API started!
 2022-04-16T23:37:42.155Z [my-bank-api] info: API started!
+2022-04-16T23:37:50.983Z [my-bank-api] info: GET /account
+2022-04-16T23:37:55.248Z [my-bank-api] info: GET /account/:id - {"id":1,"name":"Teste Novo","balance":25000.5}
+2022-04-16T23:38:40.782Z [my-bank-api] info: GET /account/:id - {"id":1,"name":"Teste Novo","balance":25000.5}
+2022-04-17T00:02:18.018Z [my-bank-api] info: API started!
+2022-04-17T00:02:23.419Z [my-bank-api] info: GET /account
+2022-04-17T00:03:03.398Z [my-bank-api] info: GET /account
+2022-04-17T00:03:46.168Z [my-bank-api] info: POST /account - {"id":7,"name":"Marcelo Camillo","balance":100}
+2022-04-17T00:03:59.877Z [my-bank-api] info: POST /account - {"id":8,"name":"Marcelo F. Camillo","balance":100}
+2022-04-17T00:04:08.500Z [my-bank-api] info: GET /account
