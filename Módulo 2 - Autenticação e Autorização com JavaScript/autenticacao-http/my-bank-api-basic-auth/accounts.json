@@ -1,0 +1,50 @@
+{
+  "nextId": 14,
+  "accounts": [
+    {
+      "id": 1,
+      "name": "Teste Novo",
+      "balance": 25000.5
+    },
+    {
+      "id": 3,
+      "name": "Teste 2",
+      "balance": 200
+    },
+    {
+      "id": 4,
+      "name": "Teste 2",
+      "balance": 200
+    },
+    {
+      "id": 7,
+      "name": "Teste Novo",
+      "balance": 8750.23
+    },
+    {
+      "id": 8,
+      "name": "Marcelo F. Camillo",
+      "balance": 100
+    },
+    {
+      "id": 9,
+      "name": "Teste00",
+      "balance": 200
+    },
+    {
+      "id": 10,
+      "name": "Teste Novo",
+      "balance": 8750.23
+    },
+    {
+      "id": 12,
+      "name": "Teste 11",
+      "balance": 11
+    },
+    {
+      "id": 13,
+      "name": "Teste",
+      "balance": 8750.23
+    }
+  ]
+}
