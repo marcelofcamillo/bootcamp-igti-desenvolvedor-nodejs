@@ -406,3 +406,11 @@
 2022-04-24T23:56:18.959Z [my-bank-api] info: API started!
 2022-04-24T23:56:46.318Z [my-bank-api] info: API started!
 2022-04-24T23:57:08.714Z [my-bank-api] info: API started!
+2022-04-24T23:57:37.060Z [my-bank-api] error: POST /user - Username, password e role são obrigatórios.
+2022-04-24T23:57:43.523Z [my-bank-api] error: POST /user - Username, password e role são obrigatórios.
+2022-04-24T23:57:52.064Z [my-bank-api] error: POST /user - Username, password e role são obrigatórios.
+2022-04-24T23:58:07.514Z [my-bank-api] error: POST /user - Username e password são obrigatórios.
+2022-04-24T23:58:16.156Z [my-bank-api] error: POST /user - Username e password são obrigatórios.
+2022-04-24T23:58:32.626Z [my-bank-api] error: POST /user - Username, password e role são obrigatórios.
+2022-04-24T23:59:34.004Z [my-bank-api] error: POST /user - Invalid password!
+2022-04-24T23:59:40.545Z [my-bank-api] error: POST /user - User not found!
