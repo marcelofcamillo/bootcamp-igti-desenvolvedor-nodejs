@@ -20,4 +20,9 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+app.use((error, req, res, next) => {
+  logger.error(`${req.method} ${req.baseUrl} - ${error.message}`);
+  res.status(400).send({ error: error.message });
+});
+
 app.listen(3000, () => logger.info('API started!'));
