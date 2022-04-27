@@ -39,4 +39,74 @@
 2022-04-26T23:51:10.434Z [store-api-sql] info API started!
 2022-04-26T23:51:14.405Z [store-api-sql] info API started!
 2022-04-26T23:51:20.107Z [store-api-sql] info API started!
-2022-04-26T23:51:29.433Z [store-api-sql] info API started!
+2022-04-26T23:51:29.433Z [store-api-sql] info API started!2022-04-27T00:17:39.616Z [store-api-sql] info API started!
+2022-04-27T00:17:55.015Z [store-api-sql] error POST  - ClientRepository.createClient is not a function
+2022-04-27T00:18:16.345Z [store-api-sql] info API started!
+2022-04-27T00:18:19.030Z [store-api-sql] info POST /client - {"name":"Teste","cpf":"11122233344","phone":"0123456789","email":"teste@teste.com","address":"Teste teste, 111"}
+2022-04-27T00:22:41.900Z [store-api-sql] info API started!
+2022-04-27T00:22:43.694Z [store-api-sql] error POST  - ClientRepository.insertClient is not a function
+2022-04-27T00:22:53.935Z [store-api-sql] info API started!
+2022-04-27T00:22:56.719Z [store-api-sql] info POST /client - {"name":"Teste","cpf":"11122233344","phone":"0123456789","email":"teste@teste.com","address":"Teste teste, 111"}
+2022-04-27T00:24:47.400Z [store-api-sql] info POST /client - {"name":"Teste","cpf":"11122233344","phone":"0123456789","email":"teste@teste.com","address":"Teste teste, 111"}
+2022-04-27T00:25:10.596Z [store-api-sql] info API started!
+2022-04-27T00:25:30.855Z [store-api-sql] info API started!
+2022-04-27T00:25:36.505Z [store-api-sql] info API started!
+2022-04-27T00:25:42.081Z [store-api-sql] info API started!
+2022-04-27T00:25:55.430Z [store-api-sql] info API started!
+2022-04-27T00:26:12.347Z [store-api-sql] info API started!
+2022-04-27T00:26:19.484Z [store-api-sql] info API started!
+2022-04-27T00:26:23.093Z [store-api-sql] info API started!
+2022-04-27T00:26:44.309Z [store-api-sql] info API started!
+2022-04-27T00:26:59.395Z [store-api-sql] info API started!
+2022-04-27T00:27:03.349Z [store-api-sql] info API started!
+2022-04-27T00:27:25.803Z [store-api-sql] info API started!
+2022-04-27T00:27:38.518Z [store-api-sql] info API started!
+2022-04-27T00:27:58.145Z [store-api-sql] info API started!
+2022-04-27T00:28:08.129Z [store-api-sql] error GET  - conn is not defined
+2022-04-27T00:28:20.742Z [store-api-sql] info API started!
+2022-04-27T00:28:22.197Z [store-api-sql] info API started!
+2022-04-27T00:29:00.197Z [store-api-sql] info API started!
+2022-04-27T00:29:10.614Z [store-api-sql] info API started!
+2022-04-27T00:29:27.107Z [store-api-sql] info API started!
+2022-04-27T10:17:38.532Z [store-api-sql] info API started!
+2022-04-27T10:17:42.425Z [store-api-sql] info POST /client - {"name":"Teste","cpf":"11122233344","phone":"0123456789","email":"teste@teste.com","address":"Teste teste, 111"}
+2022-04-27T10:17:48.108Z [store-api-sql] info GET /client
+2022-04-27T10:18:03.309Z [store-api-sql] info GET /client
+2022-04-27T10:18:29.773Z [store-api-sql] info API started!
+2022-04-27T10:18:30.791Z [store-api-sql] info GET /client - id: 1
+2022-04-27T10:18:59.537Z [store-api-sql] info API started!
+2022-04-27T10:19:17.081Z [store-api-sql] info API started!
+2022-04-27T10:19:36.018Z [store-api-sql] info API started!
+2022-04-27T10:19:53.445Z [store-api-sql] info API started!
+2022-04-27T10:20:05.896Z [store-api-sql] info API started!
+2022-04-27T10:20:17.746Z [store-api-sql] info API started!
+2022-04-27T10:20:30.205Z [store-api-sql] info API started!
+2022-04-27T10:20:41.882Z [store-api-sql] info API started!
+2022-04-27T10:21:09.102Z [store-api-sql] info GET /client
+2022-04-27T10:21:16.790Z [store-api-sql] info GET /client - id: 3
+2022-04-27T10:21:32.294Z [store-api-sql] info DELETE /client - id: 3
+2022-04-27T10:21:38.069Z [store-api-sql] info GET /client - id: 3
+2022-04-27T10:21:41.328Z [store-api-sql] info GET /client
+2022-04-27T10:21:58.256Z [store-api-sql] info API started!
+2022-04-27T10:22:05.258Z [store-api-sql] info API started!
+2022-04-27T10:22:12.644Z [store-api-sql] info API started!
+2022-04-27T10:22:21.801Z [store-api-sql] info API started!
+2022-04-27T10:22:35.015Z [store-api-sql] info API started!
+2022-04-27T10:22:44.641Z [store-api-sql] info API started!
+2022-04-27T10:23:02.203Z [store-api-sql] info API started!
+2022-04-27T10:23:09.232Z [store-api-sql] info API started!
+2022-04-27T10:23:28.708Z [store-api-sql] info API started!
+2022-04-27T10:24:02.844Z [store-api-sql] error PUT  - Client ID, Name, CPF, Phone, Email e Address são obrigatórios.
+2022-04-27T10:24:56.912Z [store-api-sql] error PUT  - Client ID, Name, CPF, Phone, Email e Address são obrigatórios.
+2022-04-27T10:25:47.401Z [store-api-sql] info API started!
+2022-04-27T10:25:59.645Z [store-api-sql] info API started!
+2022-04-27T10:26:00.918Z [store-api-sql] info API started!
+2022-04-27T10:26:19.265Z [store-api-sql] info API started!
+2022-04-27T10:26:26.122Z [store-api-sql] info API started!
+2022-04-27T10:26:28.879Z [store-api-sql] error PUT  - Client ID, Name, CPF, Phone, Email e Address são obrigatórios.
+2022-04-27T10:26:45.275Z [store-api-sql] info GET /client
+2022-04-27T10:26:50.113Z [store-api-sql] info GET /client - id: 2
+2022-04-27T10:26:54.134Z [store-api-sql] info PUT /client - {"client_id":2,"name":"Teste Atualizado","cpf":"77766655544","phone":"432185025","email":"testea@teste.com","address":"Teste atualizado, 333"}
+2022-04-27T10:26:57.599Z [store-api-sql] info GET /client - id: 2
+2022-04-27T10:27:00.403Z [store-api-sql] info GET /client
+2022-04-27T10:28:10.477Z [store-api-sql] info API started!
