@@ -431,3 +431,16 @@
 2022-04-29T02:30:11.497Z [store-api-sql] info GET /product - id: 18
 2022-04-29T02:30:15.615Z [store-api-sql] error POST  - O produto informado não possui estoque.
 2022-04-29T02:30:32.285Z [store-api-sql] info GET /product - id: 18
+2022-04-29T02:33:14.161Z [store-api-sql] info API started!
+2022-04-29T02:34:17.711Z [store-api-sql] info GET /sale
+2022-04-29T02:34:31.331Z [store-api-sql] error DELETE  - O id da sale informado não existe.
+2022-04-29T02:34:55.108Z [store-api-sql] info GET /product - id: 18
+2022-04-29T02:34:58.492Z [store-api-sql] info DELETE /sale - id: 24
+2022-04-29T02:35:01.698Z [store-api-sql] info GET /product - id: 18
+2022-04-29T02:37:29.651Z [store-api-sql] info API started!
+2022-04-29T02:37:31.632Z [store-api-sql] info API started!
+2022-04-29T02:37:46.938Z [store-api-sql] info GET /sale
+2022-04-29T02:38:07.464Z [store-api-sql] info GET /product
+2022-04-29T02:39:37.573Z [store-api-sql] info PUT /sale - {"sale_id":23,"value":123,"date":"2022/05/17","client_id":2,"product_id":9}
+2022-04-29T02:40:05.850Z [store-api-sql] info PUT /sale - {"sale_id":23,"value":55,"date":"2022/05/17","client_id":2,"product_id":9}
+2022-04-29T02:41:54.892Z [store-api-sql] info API started!
