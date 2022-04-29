@@ -203,3 +203,25 @@
 2022-04-29T00:51:27.773Z [store-api-sql] error POST  - insert or update on table "products" violates foreign key constraint "fk_suppliers"
 2022-04-29T00:51:30.030Z [store-api-sql] info POST /product - {"name":"Notebook Dell","description":"Notebook Dell i7 8GB","value":3000,"stock":5,"supplier_id":2}
 2022-04-29T00:51:40.118Z [store-api-sql] info API started!
+2022-04-29T00:51:45.420Z [store-api-sql] error POST  - insert or update on table "products" violates foreign key constraint "fk_suppliers"
+2022-04-29T00:52:00.574Z [store-api-sql] info GET /product
+2022-04-29T00:52:08.967Z [store-api-sql] info DELETE /product - id: 3
+2022-04-29T00:52:11.459Z [store-api-sql] info GET /product
+2022-04-29T00:52:18.507Z [store-api-sql] info GET /product - id: 3
+2022-04-29T00:57:01.381Z [store-api-sql] error POST  - insert or update on table "products" violates foreign key constraint "fk_suppliers"
+2022-04-29T00:58:05.855Z [store-api-sql] info API started!
+2022-04-29T00:58:21.328Z [store-api-sql] info API started!
+2022-04-29T00:59:19.613Z [store-api-sql] info API started!
+2022-04-29T00:59:28.196Z [store-api-sql] info API started!
+2022-04-29T00:59:54.503Z [store-api-sql] info API started!
+2022-04-29T00:59:56.133Z [store-api-sql] info API started!
+2022-04-29T01:00:35.324Z [store-api-sql] info GET /supplier - id: 1
+2022-04-29T01:00:44.000Z [store-api-sql] info GET /supplier - id: 100
+2022-04-29T01:01:36.686Z [store-api-sql] error POST  - O supplier_id informado não existe.
+2022-04-29T01:01:43.852Z [store-api-sql] info POST /product - {"name":"Notebook Dell","description":"Notebook Dell i7 8GB","value":3000,"stock":5,"supplier_id":2}
+2022-04-29T01:01:47.725Z [store-api-sql] error POST  - O supplier_id informado não existe.
+2022-04-29T01:01:48.329Z [store-api-sql] error POST  - O supplier_id informado não existe.
+2022-04-29T01:01:51.541Z [store-api-sql] info POST /product - {"name":"Notebook Dell","description":"Notebook Dell i7 8GB","value":3000,"stock":5,"supplier_id":2}
+2022-04-29T01:02:03.905Z [store-api-sql] info API started!
+2022-04-29T01:02:10.313Z [store-api-sql] info API started!
+2022-04-29T01:02:11.271Z [store-api-sql] info API started!
