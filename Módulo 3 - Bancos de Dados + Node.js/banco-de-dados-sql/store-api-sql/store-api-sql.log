@@ -110,3 +110,22 @@
 2022-04-27T10:26:57.599Z [store-api-sql] info GET /client - id: 2
 2022-04-27T10:27:00.403Z [store-api-sql] info GET /client
 2022-04-27T10:28:10.477Z [store-api-sql] info API started!
+2022-04-27T10:28:41.183Z [store-api-sql] info POST /client - {"name":"Teste","cpf":"11122233344","phone":"0123456789","email":"teste@teste.com","address":"Teste teste, 111"}
+2022-04-27T10:28:49.178Z [store-api-sql] info GET /client
+2022-04-27T10:28:54.145Z [store-api-sql] info GET /client - id: 2
+2022-04-27T10:28:59.632Z [store-api-sql] info DELETE /client - id: 3
+2022-04-27T10:29:03.306Z [store-api-sql] info PUT /client - {"client_id":2,"name":"Teste Atualizado","cpf":"77766655544","phone":"432185025","email":"testea@teste.com","address":"Teste atualizado, 333"}
+2022-04-27T10:30:37.164Z [store-api-sql] info API started!
+2022-04-27T10:30:46.651Z [store-api-sql] info API started!
+2022-04-27T10:31:18.103Z [store-api-sql] info API started!
+2022-04-27T10:31:25.484Z [store-api-sql] info API started!
+2022-04-27T10:31:33.082Z [store-api-sql] info API started!
+2022-04-27T10:31:48.354Z [store-api-sql] info API started!
+2022-04-27T10:31:53.173Z [store-api-sql] info API started!
+2022-04-27T10:32:02.951Z [store-api-sql] info API started!
+2022-04-27T10:32:17.323Z [store-api-sql] info API started!
+2022-04-27T10:32:27.952Z [store-api-sql] info API started!
+2022-04-27T10:32:37.578Z [store-api-sql] info API started!
+2022-04-27T10:32:50.706Z [store-api-sql] info API started!
+2022-04-27T10:35:29.928Z [store-api-sql] info API started!
+2022-04-27T10:35:40.745Z [store-api-sql] info API started!
