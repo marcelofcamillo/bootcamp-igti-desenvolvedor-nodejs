@@ -9,7 +9,9 @@ async function createSale(sale) {
     error = 'O client_id informado não existe.';
   }
 
-  if (!(await ProductRepository.getProduct(sale.product_id))) {
+  const product = await ProductRepository.getProduct(sale.product_id);
+
+  if (!product) {
     error += 'O product_id informado não existe.';
   }
 
@@ -17,7 +19,15 @@ async function createSale(sale) {
     throw new Error(error);
   }
 
-  return await SaleRepository.createSale(sale);
+  if (product.stock > 0) {
+    sale = await SaleRepository.createSale(sale);
+    product.stock--;
+    await ProductRepository.updateProduct(product);
+
+    return sale;
+  } else {
+    throw new Error('O produto informado não possui estoque.');
+  }
 }
 
 async function getSales() {

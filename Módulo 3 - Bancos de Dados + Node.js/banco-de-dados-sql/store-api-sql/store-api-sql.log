@@ -398,3 +398,36 @@
 2022-04-29T02:05:49.601Z [store-api-sql] error PUT  - O client_id informado não existe.O product_id informado não existe.
 2022-04-29T02:05:52.877Z [store-api-sql] error PUT  - O client_id informado não existe.
 2022-04-29T02:05:56.244Z [store-api-sql] info PUT /sale - {"sale_id":2,"value":123,"date":"2022/05/17","client_id":2,"product_id":1}
+2022-04-29T02:24:04.892Z [store-api-sql] info API started!
+2022-04-29T02:24:07.887Z [store-api-sql] error POST  - O client_id informado não existe.
+2022-04-29T02:24:14.339Z [store-api-sql] error POST  - O produto informado não possui estoque.
+2022-04-29T02:24:25.292Z [store-api-sql] info GET /product
+2022-04-29T02:25:03.105Z [store-api-sql] error POST  - O produto informado não possui estoque.
+2022-04-29T02:25:07.956Z [store-api-sql] error POST  - O client_id informado não existe.
+2022-04-29T02:25:13.180Z [store-api-sql] error POST  - O produto informado não possui estoque.
+2022-04-29T02:25:36.254Z [store-api-sql] info API started!
+2022-04-29T02:25:40.144Z [store-api-sql] error POST  - O produto informado não possui estoque.
+2022-04-29T02:26:01.367Z [store-api-sql] info API started!
+2022-04-29T02:26:12.809Z [store-api-sql] info API started!
+2022-04-29T02:26:15.532Z [store-api-sql] info POST /sale - {"value":3500,"date":"2022/04/28","client_id":1,"product_id":4}
+2022-04-29T02:26:36.480Z [store-api-sql] info API started!
+2022-04-29T02:26:51.556Z [store-api-sql] info GET /product
+2022-04-29T02:27:16.429Z [store-api-sql] info GET /product - id: 4
+2022-04-29T02:27:25.943Z [store-api-sql] info POST /sale - {"value":3500,"date":"2022/04/28","client_id":1,"product_id":4}
+2022-04-29T02:27:37.873Z [store-api-sql] info GET /product - id: 4
+2022-04-29T02:27:39.724Z [store-api-sql] info GET /product - id: 4
+2022-04-29T02:27:44.032Z [store-api-sql] info POST /sale - {"value":3500,"date":"2022/04/28","client_id":1,"product_id":4}
+2022-04-29T02:27:47.483Z [store-api-sql] info GET /product - id: 4
+2022-04-29T02:28:25.762Z [store-api-sql] info GET /supplier
+2022-04-29T02:28:33.681Z [store-api-sql] info GET /supplier - id: 1
+2022-04-29T02:28:42.564Z [store-api-sql] info POST /product - {"name":"Mouse Dell","description":"Mouse Dell sem fio","value":50,"stock":2,"supplier_id":1}
+2022-04-29T02:28:49.658Z [store-api-sql] info GET /product - id: 18
+2022-04-29T02:29:22.686Z [store-api-sql] info GET /supplier
+2022-04-29T02:29:25.525Z [store-api-sql] info GET /client
+2022-04-29T02:29:35.156Z [store-api-sql] info POST /product - {"name":"Mouse Dell","description":"Mouse Dell sem fio","value":50,"stock":2,"supplier_id":1}
+2022-04-29T02:29:54.505Z [store-api-sql] info POST /sale - {"value":3500,"date":"2022/04/28","client_id":1,"product_id":18}
+2022-04-29T02:30:01.853Z [store-api-sql] info GET /product - id: 18
+2022-04-29T02:30:05.308Z [store-api-sql] info POST /sale - {"value":3500,"date":"2022/04/28","client_id":1,"product_id":18}
+2022-04-29T02:30:11.497Z [store-api-sql] info GET /product - id: 18
+2022-04-29T02:30:15.615Z [store-api-sql] error POST  - O produto informado não possui estoque.
+2022-04-29T02:30:32.285Z [store-api-sql] info GET /product - id: 18
