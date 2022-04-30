@@ -444,3 +444,46 @@
 2022-04-29T02:39:37.573Z [store-api-sql] info PUT /sale - {"sale_id":23,"value":123,"date":"2022/05/17","client_id":2,"product_id":9}
 2022-04-29T02:40:05.850Z [store-api-sql] info PUT /sale - {"sale_id":23,"value":55,"date":"2022/05/17","client_id":2,"product_id":9}
 2022-04-29T02:41:54.892Z [store-api-sql] info API started!
+2022-04-29T02:41:57.637Z [store-api-sql] info PUT /sale - {"sale_id":23,"value":55,"date":"2022/05/17","client_id":2,"product_id":9}
+2022-04-29T02:46:25.280Z [store-api-sql] info API started!
+2022-04-29T02:46:38.704Z [store-api-sql] info API started!
+2022-04-29T02:46:42.858Z [store-api-sql] info API started!
+2022-04-29T02:49:42.940Z [store-api-sql] info API started!
+2022-04-29T02:49:50.447Z [store-api-sql] info API started!
+2022-04-29T02:50:15.168Z [store-api-sql] info GET /sale
+2022-04-29T02:50:56.451Z [store-api-sql] info GET /sale
+2022-04-29T02:51:04.908Z [store-api-sql] info GET /sale
+2022-04-29T02:51:08.002Z [store-api-sql] info GET /sale
+2022-04-29T02:51:11.567Z [store-api-sql] info GET /sale
+2022-04-29T02:51:16.403Z [store-api-sql] info GET /sale
+2022-04-29T02:51:18.950Z [store-api-sql] info GET /sale
+2022-04-29T02:51:22.984Z [store-api-sql] info GET /sale
+2022-04-29T02:51:57.800Z [store-api-sql] info GET /sale
+2022-04-29T02:52:12.853Z [store-api-sql] info GET /sale
+2022-04-29T02:53:19.295Z [store-api-sql] info GET /sale
+2022-04-29T02:53:38.862Z [store-api-sql] info GET /sale
+2022-04-29T22:07:06.881Z [store-api-sql] info API started!
+2022-04-29T22:14:43.641Z [store-api-sql] info GET /sale
+2022-04-29T22:15:12.792Z [store-api-sql] info API started!
+2022-04-29T22:15:43.869Z [store-api-sql] info API started!
+2022-04-29T22:16:16.868Z [store-api-sql] info API started!
+2022-04-30T13:28:14.169Z [store-api-sql] info API started!
+2022-04-30T13:28:19.533Z [store-api-sql] info GET /sale
+2022-04-30T13:28:33.486Z [store-api-sql] info GET /sale
+2022-04-30T13:28:54.990Z [store-api-sql] info GET /sale
+2022-04-30T13:32:17.453Z [store-api-sql] info API started!
+2022-04-30T13:33:54.653Z [store-api-sql] info API started!
+2022-04-30T13:34:31.462Z [store-api-sql] info API started!
+2022-04-30T13:34:42.407Z [store-api-sql] info API started!
+2022-04-30T13:34:56.684Z [store-api-sql] info API started!
+2022-04-30T13:35:07.258Z [store-api-sql] info API started!
+2022-04-30T13:35:09.926Z [store-api-sql] info API started!
+2022-04-30T13:35:22.414Z [store-api-sql] info API started!
+2022-04-30T13:35:27.213Z [store-api-sql] info API started!
+2022-04-30T13:35:29.719Z [store-api-sql] info API started!
+2022-04-30T13:36:26.625Z [store-api-sql] info API started!
+2022-04-30T13:36:31.491Z [store-api-sql] info GET /sale
+2022-04-30T13:36:38.455Z [store-api-sql] info GET /product
+2022-04-30T13:36:47.335Z [store-api-sql] info GET /sale
+2022-04-30T13:37:15.680Z [store-api-sql] info GET /sale
+2022-04-30T13:37:19.813Z [store-api-sql] info GET /sale

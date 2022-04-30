@@ -18,7 +18,7 @@ async function createSale(req, res, next) {
 
 async function getSales(req, res, next) {
   try {
-    res.status(200).send(await SaleService.getSales());
+    res.status(200).send(await SaleService.getSales(req.query.product_id));
     logger.info(`${req.method} ${req.baseUrl}`);
   } catch (error) {
     next(error);
