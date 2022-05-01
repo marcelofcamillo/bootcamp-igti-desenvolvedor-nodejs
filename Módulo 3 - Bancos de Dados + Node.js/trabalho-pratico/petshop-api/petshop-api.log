@@ -1,0 +1,31 @@
+2022-05-01T15:39:30.865Z [petshop-api] info POST /proprietario - {"proprietario_id":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"}
+2022-05-01T15:39:37.855Z [petshop-api] info POST /proprietario - {"proprietario_id":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"}
+2022-05-01T15:39:46.905Z [petshop-api] info POST /proprietario - {"proprietario_id":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"}
+2022-05-01T15:39:52.768Z [petshop-api] info POST /proprietario - {"proprietario_id":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"}
+2022-05-01T15:39:58.792Z [petshop-api] info POST /proprietario - {"proprietario_id":5,"nome":"Richard Santos","telefone":"(27) 99597-9170"}
+2022-05-01T15:40:03.813Z [petshop-api] info POST /proprietario - {"proprietario_id":6,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"}
+2022-05-01T15:40:07.831Z [petshop-api] info GET /proprietario
+2022-05-01T15:40:12.107Z [petshop-api] info GET /proprietario
+2022-05-01T15:43:24.320Z [petshop-api] info POST /animal - {"animal_id":1,"nome":"Billy","tipo":"Cachorro","proprietario_id":1}
+2022-05-01T15:43:29.012Z [petshop-api] info POST /animal - {"animal_id":2,"nome":"Nala","tipo":"Cachorro","proprietario_id":2}
+2022-05-01T15:43:33.810Z [petshop-api] info POST /animal - {"animal_id":3,"nome":"Mimi","tipo":"Gato","proprietario_id":2}
+2022-05-01T15:43:38.240Z [petshop-api] info POST /animal - {"animal_id":4,"nome":"Dory","tipo":"Cachorro","proprietario_id":3}
+2022-05-01T15:43:46.033Z [petshop-api] info POST /animal - {"animal_id":5,"nome":"Lulu","tipo":"Cachorro","proprietario_id":4}
+2022-05-01T15:43:51.269Z [petshop-api] info POST /animal - {"animal_id":6,"nome":"Bob","tipo":"Cachorro","proprietario_id":5}
+2022-05-01T15:43:56.364Z [petshop-api] info POST /animal - {"animal_id":7,"nome":"Milu","tipo":"Cachorro","proprietario_id":5}
+2022-05-01T15:44:03.350Z [petshop-api] info POST /animal - {"animal_id":8,"nome":"Emmy","tipo":"Gato","proprietario_id":5}
+2022-05-01T15:44:12.479Z [petshop-api] info POST /animal - {"animal_id":9,"nome":"Amora","tipo":"Cachorro","proprietario_id":6}
+2022-05-01T15:44:15.972Z [petshop-api] info GET /proprietario
+2022-05-01T15:44:17.455Z [petshop-api] info GET /proprietario
+2022-05-01T15:44:26.442Z [petshop-api] info PUT /proprietario - {"proprietario_id":1,"nome":"Proprietario 1","telefone":"111"}
+2022-05-01T15:44:35.687Z [petshop-api] info GET /proprietario
+2022-05-01T15:44:38.431Z [petshop-api] info GET /proprietario
+2022-05-01T15:44:46.160Z [petshop-api] error DELETE  - update or delete on table "proprietarios" violates foreign key constraint "fk_proprietarios" on table "animais"
+2022-05-01T15:44:49.685Z [petshop-api] info GET /animal
+2022-05-01T15:45:00.656Z [petshop-api] info GET /animal
+2022-05-01T15:45:05.160Z [petshop-api] info DELETE /animal
+2022-05-01T15:45:07.764Z [petshop-api] info GET /animal
+2022-05-01T15:45:10.816Z [petshop-api] info DELETE /proprietario
+2022-05-01T15:45:20.217Z [petshop-api] info PUT /animal - undefined
+2022-05-01T15:45:27.101Z [petshop-api] info GET /animal
+2022-05-01T15:45:29.897Z [petshop-api] info GET /animal
