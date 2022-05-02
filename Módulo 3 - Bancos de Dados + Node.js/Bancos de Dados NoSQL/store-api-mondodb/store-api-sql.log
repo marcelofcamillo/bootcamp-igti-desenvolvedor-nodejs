@@ -746,3 +746,8 @@
 2022-05-02T02:21:49.114Z [store-api-sql] info API started!
 2022-05-02T02:22:47.988Z [store-api-sql] info GET /product - id: 18
 2022-05-02T02:23:55.157Z [store-api-sql] info API started!
+2022-05-02T02:23:59.028Z [store-api-sql] info GET /product - id: 18
+2022-05-02T02:27:04.601Z [store-api-sql] info API started!
+2022-05-02T02:27:21.657Z [store-api-sql] info API started!
+2022-05-02T02:27:32.565Z [store-api-sql] info API started!
+2022-05-02T02:29:08.164Z [store-api-sql] info API started!

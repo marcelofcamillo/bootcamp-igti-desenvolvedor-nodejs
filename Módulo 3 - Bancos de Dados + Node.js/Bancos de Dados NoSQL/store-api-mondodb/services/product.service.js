@@ -30,6 +30,8 @@ async function deleteProduct(id) {
     throw new Error('Não é possível excluir o produto pois ele tem vendas.');
   }
 
+  await ProductInfoRepository.deleteProductInfo(parseInt(id));
+
   await ProductRepository.deleteProduct(id);
 }
 
