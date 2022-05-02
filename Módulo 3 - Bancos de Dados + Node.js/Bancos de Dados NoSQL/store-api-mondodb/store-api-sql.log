@@ -723,3 +723,26 @@
 2022-05-02T02:02:15.666Z [store-api-sql] info API started!
 2022-05-02T02:03:27.863Z [store-api-sql] info API started!
 2022-05-02T02:03:46.262Z [store-api-sql] info API started!
+2022-05-02T02:05:22.104Z [store-api-sql] info GET /product
+2022-05-02T02:06:37.201Z [store-api-sql] info POST /product/info - {"productId":18,"category":"Mouse","width":"15cm","height":"20cm","depth":"5cm","reviews":[],"_id":"626f3cadf1b21f3de2cd6884"}
+2022-05-02T02:10:54.840Z [store-api-sql] info API started!
+2022-05-02T02:10:58.139Z [store-api-sql] info API started!
+2022-05-02T02:11:00.798Z [store-api-sql] info API started!
+2022-05-02T02:11:49.580Z [store-api-sql] info API started!
+2022-05-02T02:12:07.527Z [store-api-sql] info API started!
+2022-05-02T02:12:11.133Z [store-api-sql] info API started!
+2022-05-02T02:12:30.362Z [store-api-sql] info API started!
+2022-05-02T02:13:11.293Z [store-api-sql] info API started!
+2022-05-02T02:13:15.724Z [store-api-sql] info API started!
+2022-05-02T02:13:28.642Z [store-api-sql] info API started!
+2022-05-02T02:13:58.325Z [store-api-sql] info PUT /product/info - {"productId":18,"category":"Mouse","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2022-05-02T02:14:05.964Z [store-api-sql] info PUT /product/info - {"productId":18,"category":"Mouse sem fio","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2022-05-02T02:15:06.905Z [store-api-sql] info GET /product
+2022-05-02T02:15:15.034Z [store-api-sql] info GET /product - id: 18
+2022-05-02T02:19:42.890Z [store-api-sql] info API started!
+2022-05-02T02:19:47.521Z [store-api-sql] info API started!
+2022-05-02T02:20:06.141Z [store-api-sql] info API started!
+2022-05-02T02:21:25.359Z [store-api-sql] info API started!
+2022-05-02T02:21:49.114Z [store-api-sql] info API started!
+2022-05-02T02:22:47.988Z [store-api-sql] info GET /product - id: 18
+2022-05-02T02:23:55.157Z [store-api-sql] info API started!

@@ -16,7 +16,11 @@ async function getProducts() {
 }
 
 async function getProduct(id) {
-  return await ProductRepository.getProduct(id);
+  const product = await ProductRepository.getProduct(id);
+
+  product.info = await ProductInfoRepository.getProductInfo(parseInt(id));
+
+  return product;
 }
 
 async function deleteProduct(id) {
@@ -41,6 +45,10 @@ async function createProductInfo(productInfo) {
   await ProductInfoRepository.createProductInfo(productInfo);
 }
 
+async function updateProductInfo(productInfo) {
+  await ProductInfoRepository.updateProductInfo(productInfo);
+}
+
 export default {
   createProduct,
   getProducts,
@@ -48,4 +56,5 @@ export default {
   deleteProduct,
   updateProduct,
   createProductInfo,
+  updateProductInfo,
 };
