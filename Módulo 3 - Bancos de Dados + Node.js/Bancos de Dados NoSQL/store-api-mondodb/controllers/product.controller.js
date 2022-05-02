@@ -129,6 +129,24 @@ async function deleteReview(req, res, next) {
   }
 }
 
+async function getProductsInfo(req, res, next) {
+  try {
+    res.send(await ProductService.getProductsInfo());
+    logger.info(`${req.method} ${req.baseUrl}/info`);
+  } catch (error) {
+    next(error);
+  }
+}
+
+async function deleteProductInfo(req, res, next) {
+  try {
+    res.send(await ProductService.deleteProductInfo(parseInt(req.params.id)));
+    logger.info(`${req.method} ${req.baseUrl}/info`);
+  } catch (error) {
+    next(error);
+  }
+}
+
 export default {
   createProduct,
   getProducts,
@@ -139,4 +157,6 @@ export default {
   updateProductInfo,
   createReview,
   deleteReview,
+  getProductsInfo,
+  deleteProductInfo,
 };

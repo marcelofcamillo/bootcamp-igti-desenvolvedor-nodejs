@@ -780,3 +780,36 @@
 2022-05-02T02:42:52.264Z [store-api-sql] info API started!
 2022-05-02T02:43:03.212Z [store-api-sql] info API started!
 2022-05-02T02:43:24.498Z [store-api-sql] info API started!
+2022-05-02T02:43:45.603Z [store-api-sql] info API started!
+2022-05-02T02:44:39.205Z [store-api-sql] info DELETE /product/18/review/1
+2022-05-02T02:47:31.128Z [store-api-sql] info API started!
+2022-05-02T02:47:35.244Z [store-api-sql] info API started!
+2022-05-02T02:47:40.368Z [store-api-sql] info API started!
+2022-05-02T02:48:06.906Z [store-api-sql] info API started!
+2022-05-02T02:48:09.538Z [store-api-sql] info API started!
+2022-05-02T02:48:22.590Z [store-api-sql] info API started!
+2022-05-02T02:48:41.304Z [store-api-sql] info API started!
+2022-05-02T02:49:35.991Z [store-api-sql] info API started!
+2022-05-02T02:53:31.465Z [store-api-sql] info API started!
+2022-05-02T02:53:46.629Z [store-api-sql] info API started!
+2022-05-02T02:54:49.509Z [store-api-sql] error GET  - invalid input syntax for integer: "info"
+2022-05-02T02:55:43.152Z [store-api-sql] info API started!
+2022-05-02T02:55:45.445Z [store-api-sql] error GET  - invalid input syntax for integer: "info"
+2022-05-02T02:56:17.399Z [store-api-sql] info API started!
+2022-05-02T02:56:28.621Z [store-api-sql] error GET  - invalid input syntax for integer: "info"
+2022-05-02T02:56:45.244Z [store-api-sql] info API started!
+2022-05-02T02:56:49.016Z [store-api-sql] error GET  - invalid input syntax for integer: "info"
+2022-05-02T02:56:55.960Z [store-api-sql] info API started!
+2022-05-02T02:57:41.847Z [store-api-sql] info API started!
+2022-05-02T02:57:45.390Z [store-api-sql] error GET  - invalid input syntax for integer: "info"
+2022-05-02T02:57:59.822Z [store-api-sql] error GET  - invalid input syntax for integer: "info"
+2022-05-02T02:58:41.267Z [store-api-sql] info API started!
+2022-05-02T02:58:43.865Z [store-api-sql] error GET  - invalid input syntax for integer: "info"
+2022-05-02T02:59:19.796Z [store-api-sql] info API started!
+2022-05-02T02:59:23.470Z [store-api-sql] error GET  - invalid input syntax for integer: "info"
+2022-05-02T03:00:01.469Z [store-api-sql] error GET  - invalid input syntax for integer: "infoo"
+2022-05-02T03:00:04.468Z [store-api-sql] error GET  - invalid input syntax for integer: "info"
+2022-05-02T03:00:19.239Z [store-api-sql] info GET /product
+2022-05-02T03:00:23.390Z [store-api-sql] error GET  - invalid input syntax for integer: "info"
+2022-05-02T03:01:05.501Z [store-api-sql] info API started!
+2022-05-02T03:01:15.512Z [store-api-sql] info API started!
