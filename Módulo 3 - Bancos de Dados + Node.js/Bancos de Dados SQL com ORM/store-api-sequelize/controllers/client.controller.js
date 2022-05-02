@@ -50,8 +50,8 @@ async function updateClient(req, res, next) {
     let client = req.body;
 
     // prettier-ignore
-    if (!client.client_id || !client.name || !client.cpf || !client.phone || !client.email || !client.address) {
-      throw new Error('Client ID, name, cpf, phone, email e address são obrigatórios.');
+    if (!client.clientId || !client.name || !client.cpf || !client.phone || !client.email || !client.address) {
+      throw new Error('Client id, name, cpf, phone, email e address são obrigatórios.');
     }
 
     res.status(200).send(await ClientService.updateClient(client));

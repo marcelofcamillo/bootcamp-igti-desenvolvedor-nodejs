@@ -1,4 +1,4 @@
-import { connect } from './db.js';
+import connect from './db.js';
 
 async function createProduct(product) {
   const conn = await connect();

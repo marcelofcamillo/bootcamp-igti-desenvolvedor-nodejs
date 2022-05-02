@@ -489,3 +489,32 @@
 2022-04-30T13:37:19.813Z [store-api-sql] info GET /sale
 2022-05-01T23:31:04.683Z [store-api-sql] info API started!
 2022-05-01T23:33:25.053Z [store-api-sql] info API started!
+2022-05-02T00:15:17.889Z [store-api-sql] info API started!
+2022-05-02T00:17:08.615Z [store-api-sql] info GET /client
+2022-05-02T00:17:45.130Z [store-api-sql] info GET /client - id: 1
+2022-05-02T00:18:40.356Z [store-api-sql] info POST /client - {"name":"João","cpf":"23509918061","phone":"31989896655","email":"joao@gmail.com","address":"Rua X, n 100"}
+2022-05-02T00:18:49.719Z [store-api-sql] error PUT  - WHERE parameter "client_id" has invalid "undefined" value
+2022-05-02T00:18:54.781Z [store-api-sql] error PUT  - Client ID, name, cpf, phone, email e address são obrigatórios.
+2022-05-02T00:19:29.089Z [store-api-sql] info API started!
+2022-05-02T00:19:36.253Z [store-api-sql] error PUT  - WHERE parameter "client_id" has invalid "undefined" value
+2022-05-02T00:20:09.159Z [store-api-sql] info API started!
+2022-05-02T00:20:12.466Z [store-api-sql] error PUT  - Client ID, name, cpf, phone, email e address são obrigatórios.
+2022-05-02T00:20:22.515Z [store-api-sql] error PUT  - Client ID, name, cpf, phone, email e address são obrigatórios.
+2022-05-02T00:20:29.925Z [store-api-sql] error PUT  - Client ID, name, cpf, phone, email e address são obrigatórios.
+2022-05-02T00:20:47.272Z [store-api-sql] info API started!
+2022-05-02T00:20:54.774Z [store-api-sql] info API started!
+2022-05-02T00:21:01.605Z [store-api-sql] info API started!
+2022-05-02T00:21:03.318Z [store-api-sql] error PUT  - WHERE parameter "client_id" has invalid "undefined" value
+2022-05-02T00:21:39.089Z [store-api-sql] info API started!
+2022-05-02T00:22:08.586Z [store-api-sql] info API started!
+2022-05-02T00:23:06.929Z [store-api-sql] info API started!
+2022-05-02T00:23:21.677Z [store-api-sql] info API started!
+2022-05-02T00:23:33.663Z [store-api-sql] error PUT  - WHERE parameter "client_id" has invalid "undefined" value
+2022-05-02T00:23:41.964Z [store-api-sql] error PUT  - WHERE parameter "client_id" has invalid "undefined" value
+2022-05-02T00:24:14.217Z [store-api-sql] info API started!
+2022-05-02T00:24:18.159Z [store-api-sql] info API started!
+2022-05-02T00:24:20.851Z [store-api-sql] error PUT  - WHERE parameter "client_id" has invalid "undefined" value
+2022-05-02T00:24:58.838Z [store-api-sql] error PUT  - WHERE parameter "client_id" has invalid "undefined" value
+2022-05-02T00:25:02.222Z [store-api-sql] error PUT  - WHERE parameter "client_id" has invalid "undefined" value
+2022-05-02T00:25:19.040Z [store-api-sql] info API started!
+2022-05-02T00:25:24.363Z [store-api-sql] info PUT /client - {"clientId":1,"name":"Teste Atualizado","cpf":"77766655544","phone":"432185025","email":"testea@teste.com","address":"Teste atualizado, 333"}
