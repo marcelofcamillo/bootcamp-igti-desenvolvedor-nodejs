@@ -5,8 +5,8 @@ async function createProduct(req, res, next) {
     let product = req.body;
 
     // prettier-ignore
-    if (!product.name || !product.description || !product.value || !product.stock || !product.supplier_id) {
-      throw new Error('Name, description, value, stock e supplier_id são obrigatórios.');
+    if (!product.name || !product.description || !product.value || !product.stock || !product.supplierId) {
+      throw new Error('Name, description, value, stock e supplierId são obrigatórios.');
     }
 
     res.status(200).send(await ProductService.createProduct(product));
@@ -50,8 +50,8 @@ async function updateProduct(req, res, next) {
     let product = req.body;
 
     // prettier-ignore
-    if (!product.product_id || !product.name || !product.description || !product.value || !product.stock || !product.supplier_id) {
-      throw new Error('Product ID, name, description, value, stock e supplier_id são obrigatórios.');
+    if (!product.productId || !product.name || !product.description || !product.value || !product.stock || !product.supplierId) {
+      throw new Error('Product ID, name, description, value, stock e supplierId são obrigatórios.');
     }
 
     res.status(200).send(await ProductService.updateProduct(product));

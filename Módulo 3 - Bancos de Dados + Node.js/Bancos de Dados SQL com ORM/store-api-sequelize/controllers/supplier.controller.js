@@ -50,7 +50,7 @@ async function updateSupplier(req, res, next) {
     let supplier = req.body;
 
     // prettier-ignore
-    if (!supplier.supplier_id || !supplier.name || !supplier.cnpj || !supplier.phone || !supplier.email || !supplier.address) {
+    if (!supplier.supplierId || !supplier.name || !supplier.cnpj || !supplier.phone || !supplier.email || !supplier.address) {
       throw new Error('Supplier ID, name, cnpj, phone, email e address são obrigatórios.');
     }
 

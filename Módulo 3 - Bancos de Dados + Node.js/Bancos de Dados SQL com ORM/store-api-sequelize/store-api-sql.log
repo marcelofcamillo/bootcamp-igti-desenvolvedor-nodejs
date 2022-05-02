@@ -518,3 +518,93 @@
 2022-05-02T00:25:02.222Z [store-api-sql] error PUT  - WHERE parameter "client_id" has invalid "undefined" value
 2022-05-02T00:25:19.040Z [store-api-sql] info API started!
 2022-05-02T00:25:24.363Z [store-api-sql] info PUT /client - {"clientId":1,"name":"Teste Atualizado","cpf":"77766655544","phone":"432185025","email":"testea@teste.com","address":"Teste atualizado, 333"}
+2022-05-02T00:25:51.647Z [store-api-sql] info API started!
+2022-05-02T00:25:58.486Z [store-api-sql] info GET /client - id: 1
+2022-05-02T00:26:06.018Z [store-api-sql] info GET /client
+2022-05-02T00:26:12.599Z [store-api-sql] error DELETE  - update or delete on table "clients" violates foreign key constraint "fk_clients" on table "sales"
+2022-05-02T00:26:29.448Z [store-api-sql] info POST /client - {"name":"João","cpf":"23509918061","phone":"31989896655","email":"joao@gmail.com","address":"Rua X, n 100"}
+2022-05-02T00:26:33.848Z [store-api-sql] info DELETE /client - id: 12
+2022-05-02T00:26:38.043Z [store-api-sql] info GET /client
+2022-05-02T00:32:19.633Z [store-api-sql] info API started!
+2022-05-02T00:32:25.716Z [store-api-sql] info API started!
+2022-05-02T00:32:30.768Z [store-api-sql] info API started!
+2022-05-02T00:32:33.939Z [store-api-sql] info API started!
+2022-05-02T00:32:51.703Z [store-api-sql] info API started!
+2022-05-02T00:33:35.677Z [store-api-sql] info API started!
+2022-05-02T00:33:57.736Z [store-api-sql] error POST  - SupplierRepository.createSupplier is not a function
+2022-05-02T00:34:46.017Z [store-api-sql] info API started!
+2022-05-02T00:35:22.485Z [store-api-sql] info API started!
+2022-05-02T00:35:29.064Z [store-api-sql] info POST /supplier - {"name":"xxxxxxxx","cnpj":"xxxxxxxx","phone":"xxxxxxxx","email":"xxxxxxx@xxx.xxxx","address":"xxxxxx xxxx, xxxxx"}
+2022-05-02T00:35:31.606Z [store-api-sql] info POST /supplier - {"name":"xxxxxxxx","cnpj":"xxxxxxxx","phone":"xxxxxxxx","email":"xxxxxxx@xxx.xxxx","address":"xxxxxx xxxx, xxxxx"}
+2022-05-02T00:35:48.818Z [store-api-sql] info API started!
+2022-05-02T00:35:53.301Z [store-api-sql] info GET /supplier
+2022-05-02T00:36:09.910Z [store-api-sql] info API started!
+2022-05-02T00:36:14.941Z [store-api-sql] info GET /supplier - id: 1
+2022-05-02T00:36:26.256Z [store-api-sql] info GET /supplier - id: 7
+2022-05-02T00:36:48.429Z [store-api-sql] info API started!
+2022-05-02T00:36:54.277Z [store-api-sql] error DELETE  - Supplier.dedstroy is not a function
+2022-05-02T00:37:02.284Z [store-api-sql] info API started!
+2022-05-02T00:37:05.987Z [store-api-sql] info DELETE /supplier - id: 7
+2022-05-02T00:37:08.262Z [store-api-sql] info GET /supplier - id: 7
+2022-05-02T00:37:11.498Z [store-api-sql] info GET /supplier - id: 8
+2022-05-02T00:37:45.594Z [store-api-sql] info API started!
+2022-05-02T00:37:50.764Z [store-api-sql] info GET /supplier - id: 8
+2022-05-02T00:37:53.665Z [store-api-sql] error PUT  - Supplier ID, name, cnpj, phone, email e address são obrigatórios.
+2022-05-02T00:38:00.614Z [store-api-sql] error PUT  - Supplier ID, name, cnpj, phone, email e address são obrigatórios.
+2022-05-02T00:38:04.297Z [store-api-sql] error PUT  - Supplier ID, name, cnpj, phone, email e address são obrigatórios.
+2022-05-02T00:38:46.344Z [store-api-sql] info API started!
+2022-05-02T00:38:49.157Z [store-api-sql] info PUT /supplier - {"supplierId":8,"name":"Teste Atualizado","cnpj":"5555555555","phone":"5555555","email":"teste5a@teste.com","address":"Teste atualizado, 555"}
+2022-05-02T00:39:16.882Z [store-api-sql] info API started!
+2022-05-02T00:39:20.140Z [store-api-sql] info PUT /supplier - {"supplierId":8,"name":"Teste Atualizado","cnpj":"5555555555","phone":"5555555","email":"teste5a@teste.com","address":"Teste atualizado, 555"}
+2022-05-02T00:39:22.826Z [store-api-sql] info GET /supplier - id: 8
+2022-05-02T00:39:25.310Z [store-api-sql] info GET /supplier
+2022-05-02T00:40:09.570Z [store-api-sql] info API started!
+2022-05-02T00:40:11.744Z [store-api-sql] info API started!
+2022-05-02T00:40:36.833Z [store-api-sql] info API started!
+2022-05-02T00:40:46.198Z [store-api-sql] info API started!
+2022-05-02T00:41:00.562Z [store-api-sql] info API started!
+2022-05-02T00:41:40.632Z [store-api-sql] info API started!
+2022-05-02T00:41:47.905Z [store-api-sql] info API started!
+2022-05-02T00:41:54.593Z [store-api-sql] info API started!
+2022-05-02T00:41:58.437Z [store-api-sql] info API started!
+2022-05-02T00:42:00.887Z [store-api-sql] info API started!
+2022-05-02T00:42:04.405Z [store-api-sql] info API started!
+2022-05-02T00:42:14.421Z [store-api-sql] info API started!
+2022-05-02T00:42:23.852Z [store-api-sql] error POST  - Name, description, value, stock e supplierId são obrigatórios.
+2022-05-02T00:42:31.740Z [store-api-sql] error POST  - O supplier_id informado não existe.
+2022-05-02T00:42:50.500Z [store-api-sql] error POST  - O supplier_id informado não existe.
+2022-05-02T00:43:00.038Z [store-api-sql] info GET /supplier
+2022-05-02T00:43:25.933Z [store-api-sql] error POST  - O supplier_id informado não existe.
+2022-05-02T00:43:53.323Z [store-api-sql] info API started!
+2022-05-02T00:43:58.339Z [store-api-sql] info API started!
+2022-05-02T00:43:59.367Z [store-api-sql] error POST  - O supplier_id informado não existe.
+2022-05-02T00:44:02.860Z [store-api-sql] error POST  - O supplier_id informado não existe.
+2022-05-02T00:44:29.598Z [store-api-sql] info API started!
+2022-05-02T00:44:36.943Z [store-api-sql] info API started!
+2022-05-02T00:44:41.559Z [store-api-sql] info GET /product
+2022-05-02T00:45:01.884Z [store-api-sql] info API started!
+2022-05-02T00:45:05.906Z [store-api-sql] info GET /product - id: 18
+2022-05-02T00:45:25.177Z [store-api-sql] info API started!
+2022-05-02T00:45:47.362Z [store-api-sql] error DELETE  - update or delete on table "products" violates foreign key constraint "fk_products" on table "sales"
+2022-05-02T00:49:22.245Z [store-api-sql] info API started!
+2022-05-02T00:49:23.716Z [store-api-sql] info API started!
+2022-05-02T00:49:26.027Z [store-api-sql] info API started!
+2022-05-02T00:50:24.581Z [store-api-sql] info API started!
+2022-05-02T00:50:47.652Z [store-api-sql] info API started!
+2022-05-02T00:50:56.689Z [store-api-sql] error DELETE  - connect is not a function
+2022-05-02T00:52:26.105Z [store-api-sql] error POST  - connect is not a function
+2022-05-02T00:52:41.552Z [store-api-sql] info API started!
+2022-05-02T00:53:02.990Z [store-api-sql] info API started!
+2022-05-02T00:53:07.977Z [store-api-sql] error POST  - connect is not a function
+2022-05-02T00:54:57.254Z [store-api-sql] info POST /product - {"name":"Mouse Dell","description":"Mouse Dell sem fio","value":50,"stock":2,"supplierId":2}
+2022-05-02T00:54:59.565Z [store-api-sql] info POST /product - {"name":"Mouse Dell","description":"Mouse Dell sem fio","value":50,"stock":2,"supplierId":2}
+2022-05-02T00:55:18.790Z [store-api-sql] info GET /product - id: 21
+2022-05-02T00:55:22.659Z [store-api-sql] error PUT  - Product ID, name, description, value, stock e supplierId são obrigatórios.
+2022-05-02T00:55:30.989Z [store-api-sql] info PUT /product - {"productId":21,"name":"Notebook Teste","description":"Notebook Teste i7 8GB","value":6500,"stock":7,"supplierId":2}
+2022-05-02T00:55:36.987Z [store-api-sql] info GET /product - id: 21
+2022-05-02T00:55:41.638Z [store-api-sql] error DELETE  - connect is not a function
+2022-05-02T00:56:26.520Z [store-api-sql] info API started!
+2022-05-02T00:56:32.240Z [store-api-sql] info DELETE /product - id: 21
+2022-05-02T00:56:34.652Z [store-api-sql] info GET /product - id: 21
+2022-05-02T00:56:36.892Z [store-api-sql] info GET /product
+2022-05-02T00:56:49.478Z [store-api-sql] info API started!

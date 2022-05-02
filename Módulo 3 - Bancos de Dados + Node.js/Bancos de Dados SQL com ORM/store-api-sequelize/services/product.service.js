@@ -1,8 +1,9 @@
 import ProductRepository from '../repositories/product.repository.js';
 import SupplierRepository from '../repositories/supplier.repository.js';
+import SaleRepository from '../repositories/sale.repository.js';
 
 async function createProduct(product) {
-  if (await SupplierRepository.getSupplier(product.supplier_id)) {
+  if (await SupplierRepository.getSupplier(product.supplierId)) {
     return await ProductRepository.createProduct(product);
   }
 
@@ -22,11 +23,11 @@ async function deleteProduct(id) {
 }
 
 async function updateProduct(product) {
-  if (await SupplierRepository.getSupplier(product.supplier_id)) {
+  if (await SupplierRepository.getSupplier(product.supplierId)) {
     return await ProductRepository.updateProduct(product);
   }
 
-  throw new Error('O supplier_id informado não existe.');
+  throw new Error('O supplierId informado não existe.');
 }
 
 export default {
