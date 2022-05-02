@@ -1,0 +1,19 @@
+2022-05-02T09:59:28.809Z [store-api] info POST /product/info - {"productId":9,"category":"Teste","width":"teste","height":"teste","depth":"teste","reviews":[]}
+2022-05-02T10:00:28.195Z [store-api] info PUT /product/info - {"productId":12,"category":"Mouse sem fio","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2022-05-02T10:01:22.925Z [store-api] info PUT /product/info - {"productId":22,"category":"Mouse sem fio","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2022-05-02T10:01:42.480Z [store-api] info PUT /product/info - {"productId":9,"category":"Mouse sem fio","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2022-05-02T10:02:12.120Z [store-api] info PUT /product/info - {"productId":22,"category":"Mouse sem fio","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2022-05-02T10:02:30.796Z [store-api] info POST /product/info - {"productId":4,"category":"Teste","width":"teste","height":"teste","depth":"teste","reviews":[]}
+2022-05-02T10:02:52.036Z [store-api] info PUT /product/info - {"productId":22,"category":"Mouse sem fio","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2022-05-02T10:04:13.273Z [store-api] info POST /product/info - {"productId":4,"category":"Teste","width":"teste","height":"teste","depth":"teste","reviews":[]}
+2022-05-02T10:04:48.994Z [store-api] info PUT /product/info - {"productId":4,"category":"Mouse sem fio","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2022-05-02T10:05:03.796Z [store-api] info PUT /product/info - {"productId":4,"category":"Mouse sem fio","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2022-05-02T10:05:20.061Z [store-api] info PUT /product/info - {"productId":4,"category":"Mouse sem fio","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2022-05-02T10:05:28.533Z [store-api] info PUT /product/info - {"productId":4,"category":"Mouse sem fio 444","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2022-05-02T10:06:01.952Z [store-api] info POST /product/review
+2022-05-02T10:06:15.919Z [store-api] info POST /product/review
+2022-05-02T10:06:28.692Z [store-api] info DELETE /product/18/review/1
+2022-05-02T10:06:43.655Z [store-api] info DELETE /product/18/review/0
+2022-05-02T10:06:44.243Z [store-api] info DELETE /product/18/review/0
+2022-05-02T10:06:56.187Z [store-api] info DELETE /product/4/review/0
+2022-05-02T10:07:07.015Z [store-api] info GET /product/info
