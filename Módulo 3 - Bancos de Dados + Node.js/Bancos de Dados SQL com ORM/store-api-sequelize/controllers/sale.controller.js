@@ -5,8 +5,8 @@ async function createSale(req, res, next) {
     let sale = req.body;
 
     // prettier-ignore
-    if (!sale.value || !sale.date || !sale.client_id || !sale.product_id) {
-      throw new Error('Value, date, client_id e product_id são obrigatórios.');
+    if (!sale.value || !sale.date || !sale.clientId || !sale.productId) {
+      throw new Error('Value, date, clientId e productId são obrigatórios.');
     }
 
     res.status(200).send(await SaleService.createSale(sale));
@@ -18,7 +18,11 @@ async function createSale(req, res, next) {
 
 async function getSales(req, res, next) {
   try {
-    res.status(200).send(await SaleService.getSales(req.query.product_id));
+    res
+      .status(200)
+      .send(
+        await SaleService.getSales(req.query.productId, req.query.supplierId)
+      );
     logger.info(`${req.method} ${req.baseUrl}`);
   } catch (error) {
     next(error);
@@ -50,8 +54,8 @@ async function updateSale(req, res, next) {
     let sale = req.body;
 
     // prettier-ignore
-    if (!sale.sale_id || !sale.value || !sale.date || !sale.client_id || !sale.product_id) {
-      throw new Error('Sale ID, value, date, client_id e product_id são obrigatórios.');
+    if (!sale.saleId || !sale.value || !sale.date || !sale.clientId || !sale.productId) {
+      throw new Error('Sale ID, value, date, clientId e productId são obrigatórios.');
     }
 
     res.status(200).send(await SaleService.updateSale(sale));

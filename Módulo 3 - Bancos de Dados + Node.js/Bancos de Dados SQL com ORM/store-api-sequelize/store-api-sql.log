@@ -608,3 +608,96 @@
 2022-05-02T00:56:34.652Z [store-api-sql] info GET /product - id: 21
 2022-05-02T00:56:36.892Z [store-api-sql] info GET /product
 2022-05-02T00:56:49.478Z [store-api-sql] info API started!
+2022-05-02T00:57:43.827Z [store-api-sql] info API started!
+2022-05-02T00:57:51.423Z [store-api-sql] error DELETE  - connect is not a function
+2022-05-02T00:59:02.104Z [store-api-sql] info API started!
+2022-05-02T00:59:13.757Z [store-api-sql] info API started!
+2022-05-02T00:59:18.829Z [store-api-sql] info API started!
+2022-05-02T00:59:22.572Z [store-api-sql] info API started!
+2022-05-02T00:59:25.496Z [store-api-sql] info API started!
+2022-05-02T00:59:29.357Z [store-api-sql] info API started!
+2022-05-02T00:59:31.960Z [store-api-sql] info API started!
+2022-05-02T00:59:39.885Z [store-api-sql] info API started!
+2022-05-02T01:00:41.061Z [store-api-sql] info API started!
+2022-05-02T01:00:48.950Z [store-api-sql] info API started!
+2022-05-02T01:00:51.571Z [store-api-sql] info API started!
+2022-05-02T01:00:58.287Z [store-api-sql] error POST  - O product_id informado não existe.
+2022-05-02T01:01:10.324Z [store-api-sql] info GET /product
+2022-05-02T01:01:23.383Z [store-api-sql] error POST  - O product_id informado não existe.
+2022-05-02T01:01:49.379Z [store-api-sql] info API started!
+2022-05-02T01:02:07.383Z [store-api-sql] info API started!
+2022-05-02T01:02:22.786Z [store-api-sql] error POST  - O clientId informado não existe.O productId informado não existe.
+2022-05-02T01:02:39.819Z [store-api-sql] info GET /client
+2022-05-02T01:02:56.611Z [store-api-sql] error POST  - O clientId informado não existe.O productId informado não existe.
+2022-05-02T01:03:08.481Z [store-api-sql] error POST  - Value, date, client_id e productId são obrigatórios.
+2022-05-02T01:03:30.433Z [store-api-sql] info API started!
+2022-05-02T01:03:32.174Z [store-api-sql] info API started!
+2022-05-02T01:03:38.300Z [store-api-sql] error POST  - Value, date, client_id e productId são obrigatórios.
+2022-05-02T01:03:48.657Z [store-api-sql] error POST  - Value, date, client_id e productId são obrigatórios.
+2022-05-02T01:04:16.192Z [store-api-sql] info API started!
+2022-05-02T01:04:19.104Z [store-api-sql] error POST  - O productId informado não existe.
+2022-05-02T01:04:26.271Z [store-api-sql] info GET /product
+2022-05-02T01:04:34.723Z [store-api-sql] info POST /sale - {"value":3500,"date":"2022/04/28","clientId":4,"productId":9}
+2022-05-02T01:05:11.008Z [store-api-sql] info API started!
+2022-05-02T01:05:19.500Z [store-api-sql] info GET /sale
+2022-05-02T01:06:49.217Z [store-api-sql] info API started!
+2022-05-02T01:06:52.715Z [store-api-sql] info GET /sale
+2022-05-02T01:07:29.962Z [store-api-sql] info API started!
+2022-05-02T01:07:34.033Z [store-api-sql] info GET /sale
+2022-05-02T01:09:12.350Z [store-api-sql] info API started!
+2022-05-02T01:09:18.150Z [store-api-sql] info GET /sale - id: 2
+2022-05-02T01:09:34.510Z [store-api-sql] info GET /sale
+2022-05-02T01:10:06.650Z [store-api-sql] info GET /sale
+2022-05-02T01:11:00.316Z [store-api-sql] info API started!
+2022-05-02T01:11:02.648Z [store-api-sql] info API started!
+2022-05-02T01:11:04.369Z [store-api-sql] info API started!
+2022-05-02T01:11:08.296Z [store-api-sql] info API started!
+2022-05-02T01:11:17.870Z [store-api-sql] info API started!
+2022-05-02T01:11:20.349Z [store-api-sql] info GET /sale
+2022-05-02T01:11:36.981Z [store-api-sql] info GET /sale
+2022-05-02T01:11:41.035Z [store-api-sql] info GET /sale
+2022-05-02T01:11:48.005Z [store-api-sql] info GET /sale
+2022-05-02T01:12:00.099Z [store-api-sql] info GET /sale
+2022-05-02T01:12:33.121Z [store-api-sql] info API started!
+2022-05-02T01:12:35.988Z [store-api-sql] info API started!
+2022-05-02T01:12:53.370Z [store-api-sql] info API started!
+2022-05-02T01:13:30.477Z [store-api-sql] info GET /sale
+2022-05-02T01:13:48.917Z [store-api-sql] info GET /sale
+2022-05-02T01:13:55.947Z [store-api-sql] info GET /sale
+2022-05-02T01:14:38.260Z [store-api-sql] info GET /sale
+2022-05-02T01:15:48.706Z [store-api-sql] info API started!
+2022-05-02T01:15:59.806Z [store-api-sql] info API started!
+2022-05-02T01:16:09.182Z [store-api-sql] info API started!
+2022-05-02T01:16:10.952Z [store-api-sql] info API started!
+2022-05-02T01:16:13.886Z [store-api-sql] info API started!
+2022-05-02T01:16:23.943Z [store-api-sql] info API started!
+2022-05-02T01:16:27.943Z [store-api-sql] info API started!
+2022-05-02T01:16:32.437Z [store-api-sql] info API started!
+2022-05-02T01:16:48.255Z [store-api-sql] info GET /sale
+2022-05-02T01:16:57.298Z [store-api-sql] info GET /sale
+2022-05-02T01:17:02.158Z [store-api-sql] info GET /sale
+2022-05-02T01:17:14.751Z [store-api-sql] info GET /sale - id: 25
+2022-05-02T01:17:21.075Z [store-api-sql] info DELETE /sale - id: 25
+2022-05-02T01:17:24.068Z [store-api-sql] info GET /sale - id: 25
+2022-05-02T01:17:30.119Z [store-api-sql] info GET /sale - id: 24
+2022-05-02T01:17:32.408Z [store-api-sql] info GET /sale - id: 23
+2022-05-02T01:17:54.843Z [store-api-sql] error PUT  - Sale ID, value, date, client_id e productId são obrigatórios.
+2022-05-02T01:18:04.690Z [store-api-sql] error PUT  - Sale ID, value, date, client_id e productId são obrigatórios.
+2022-05-02T01:18:45.736Z [store-api-sql] info API started!
+2022-05-02T01:18:48.446Z [store-api-sql] error PUT  - O clientId informado não existe.
+2022-05-02T01:19:03.646Z [store-api-sql] info PUT /sale - {"saleId":23,"value":55,"date":"2021/04/23","clientId":4,"productId":9}
+2022-05-02T01:19:10.543Z [store-api-sql] info GET /sale
+2022-05-02T01:19:15.458Z [store-api-sql] info GET /sale
+2022-05-02T01:19:18.244Z [store-api-sql] info GET /sale
+2022-05-02T01:19:36.305Z [store-api-sql] info GET /sale
+2022-05-02T01:19:59.392Z [store-api-sql] info GET /sale
+2022-05-02T01:21:30.211Z [store-api-sql] info API started!
+2022-05-02T01:21:32.987Z [store-api-sql] info API started!
+2022-05-02T01:21:36.403Z [store-api-sql] info GET /sale
+2022-05-02T01:22:29.492Z [store-api-sql] info API started!
+2022-05-02T01:22:32.140Z [store-api-sql] error GET  - SaleRepository.getSalesBySupplierId is not a function
+2022-05-02T01:23:04.794Z [store-api-sql] error GET  - SaleRepository.getSalesBySupplierId is not a function
+2022-05-02T01:23:34.301Z [store-api-sql] info API started!
+2022-05-02T01:23:37.582Z [store-api-sql] info GET /sale
+2022-05-02T01:24:19.250Z [store-api-sql] info API started!
+2022-05-02T01:27:00.779Z [store-api-sql] info API started!
