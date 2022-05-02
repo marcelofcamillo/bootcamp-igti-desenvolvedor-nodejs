@@ -751,3 +751,32 @@
 2022-05-02T02:27:21.657Z [store-api-sql] info API started!
 2022-05-02T02:27:32.565Z [store-api-sql] info API started!
 2022-05-02T02:29:08.164Z [store-api-sql] info API started!
+2022-05-02T02:29:49.399Z [store-api-sql] error POST  - O supplier_id informado não existe.
+2022-05-02T02:29:54.559Z [store-api-sql] info POST /product - {"name":"Produto Teste","description":"TEste","value":500,"stock":20,"supplierId":2}
+2022-05-02T02:30:15.213Z [store-api-sql] info POST /product/info - {"productId":2,"category":"Teste","width":"teste","height":"teste","depth":"teste","reviews":[],"_id":"626f423727f1698826e63081"}
+2022-05-02T02:30:22.553Z [store-api-sql] info POST /product/info - {"productId":22,"category":"Teste","width":"teste","height":"teste","depth":"teste","reviews":[],"_id":"626f423e27f1698826e63082"}
+2022-05-02T02:30:39.139Z [store-api-sql] info DELETE /product - id: 22
+2022-05-02T02:31:34.261Z [store-api-sql] info API started!
+2022-05-02T02:32:28.425Z [store-api-sql] info API started!
+2022-05-02T02:32:55.248Z [store-api-sql] info API started!
+2022-05-02T02:33:03.624Z [store-api-sql] info API started!
+2022-05-02T02:33:16.246Z [store-api-sql] info API started!
+2022-05-02T02:33:18.756Z [store-api-sql] info API started!
+2022-05-02T02:33:38.411Z [store-api-sql] info API started!
+2022-05-02T02:33:42.363Z [store-api-sql] info API started!
+2022-05-02T02:34:25.307Z [store-api-sql] info API started!
+2022-05-02T02:34:45.722Z [store-api-sql] info API started!
+2022-05-02T02:38:31.384Z [store-api-sql] error POST  - Product ID e Review são obrigatórios.
+2022-05-02T02:38:43.600Z [store-api-sql] error POST  - product is not defined
+2022-05-02T02:38:52.343Z [store-api-sql] error POST  - product is not defined
+2022-05-02T02:39:58.820Z [store-api-sql] error POST  - product is not defined
+2022-05-02T02:40:18.895Z [store-api-sql] info API started!
+2022-05-02T02:40:40.526Z [store-api-sql] info API started!
+2022-05-02T02:40:42.982Z [store-api-sql] info POST /product/info}
+2022-05-02T02:41:43.553Z [store-api-sql] info POST /product/info}
+2022-05-02T02:42:33.116Z [store-api-sql] info API started!
+2022-05-02T02:42:39.188Z [store-api-sql] info API started!
+2022-05-02T02:42:50.147Z [store-api-sql] info API started!
+2022-05-02T02:42:52.264Z [store-api-sql] info API started!
+2022-05-02T02:43:03.212Z [store-api-sql] info API started!
+2022-05-02T02:43:24.498Z [store-api-sql] info API started!

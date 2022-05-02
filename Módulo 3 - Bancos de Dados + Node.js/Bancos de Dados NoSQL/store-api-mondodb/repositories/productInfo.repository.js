@@ -66,9 +66,35 @@ async function deleteProductInfo(productId) {
   }
 }
 
+async function createReview(review, productId) {
+  try {
+    const productInfo = await getProductInfo(productId);
+
+    productInfo.reviews.push(review);
+
+    await updateProductInfo(productInfo);
+  } catch (error) {
+    throw error;
+  }
+}
+
+async function deleteReview(productId, index) {
+  try {
+    const productInfo = await getProductInfo(productId);
+
+    productInfo.reviews.splice(index, 1);
+
+    await updateProductInfo(productInfo);
+  } catch (error) {
+    throw eerrorrr;
+  }
+}
+
 export default {
   createProductInfo,
   updateProductInfo,
   getProductInfo,
   deleteProductInfo,
+  createReview,
+  deleteReview,
 };
