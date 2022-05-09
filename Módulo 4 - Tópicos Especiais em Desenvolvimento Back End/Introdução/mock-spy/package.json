@@ -1,11 +1,10 @@
 {
-  "name": "calcula-valor",
+  "name": "mock-spy",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage",
-    "watch": "jest --watch"
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "",
